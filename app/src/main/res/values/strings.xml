@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyAppliction</string>
+    <string name="login">login</string>
+    <string name="submit">submit</string>
+    <string name="name">Username</string>
+    <string name="paasword">password</string>
+    <string name="forget">forget password?</string>
+    <string name="wback">Welcome Back</string>
+    <string name="tv_hading">Login back into your account</string>
+    <string name="tv_login">Log in</string>
+    <string name="title_activity_seekbarprint">seekbarprint</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="no">No</string>
+
+</resources>

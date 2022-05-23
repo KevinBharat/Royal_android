@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <android.widget.ImageView
+        android:id="@+id/userimg"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bguser"
+        />
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userimg"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:text="@string/login"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/etd_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edt_bg"
+        android:hint="@string/name"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/etd_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etd_username"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edt_bg"
+        android:hint="@string/paasword"
+        android:padding="15dp"
+        android:shadowColor="@color/black"
+        android:singleLine="true"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_forgetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etd_password"
+        android:layout_alignLeft="@id/etd_password"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="@string/forget"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+<RadioGroup
+    android:id="@+id/radiobuttn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_below="@+id/tv_forgetpassword"
+    >
+    <RadioButton
+        android:id="@+id/radio_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        />
+    <RadioButton
+        android:id="@+id/radio_Female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        />
+</RadioGroup>
+    <LinearLayout
+        android:layout_width="339dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/radiobuttn"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+
+        >
+
+        <android.widget.Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etd_password"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/login"
+            android:textColor="#ffff" />
+
+        <android.widget.Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etd_password"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="send"
+            android:textColor="#ffff" />
+    </LinearLayout>
+</RelativeLayout>
