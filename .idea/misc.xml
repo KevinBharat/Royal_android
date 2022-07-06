@@ -22,8 +22,13 @@
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_seekbar2.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_seekbarprint2.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_simple_listview.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_simple_listviewsho.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_spinner.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_splaseh.xml" value="0.29243266353142366" />
         <entry key="app/src/main/res/layout/activity_splaseh2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_webview.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_webviewtask.xml" value="0.29243266353142366" />
         <entry key="app/src/main/res/layout/print.xml" value="0.29243266353142366" />
         <entry key="app/src/main/res/layout/raw_custom_dialoge.xml" value="0.29243266353142366" />
         <entry key="app/src/main/res/layout/raw_toast.xml" value="0.29243266353142366" />

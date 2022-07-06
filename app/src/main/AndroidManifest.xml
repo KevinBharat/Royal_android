@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppliction">
         <activity
+            android:name=".SimpleListviewshoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SimpleListviewActivity"
+            android:exported="false" />
+        <activity
             android:name=".SpinnerActivity"
             android:exported="false" />
         <activity
