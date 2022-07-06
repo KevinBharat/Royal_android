@@ -19,7 +19,7 @@ int time=3000;
             @Override
             public void run() {
 
-                Intent  i = new Intent(SplasehActivity2.this,MainActivity.class);
+                Intent  i = new Intent(SplasehActivity2.this,SpinnerActivity.class);
                 startActivity(i);
                 finish();
             }

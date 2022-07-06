@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppliction">
         <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
             android:name=".WebviewActivity"
             android:exported="false" />
         <activity
@@ -21,7 +24,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SplasehActivity2"
             android:exported="true">
@@ -33,10 +36,10 @@
         </activity>
         <activity
             android:name=".DatetimeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".alert"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".seekbarprint"
             android:exported="false" />
@@ -45,7 +48,7 @@
             android:exported="false" />
         <activity
             android:name=".seekbarActivity2"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ImagePickActivity2"
             android:exported="false" />
