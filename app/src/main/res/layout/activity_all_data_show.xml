@@ -5,14 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HomeDateandtimeActivity">
-<TextView
-    android:id="@+id/tvi_time"
+    tools:context=".Activity.AllDataShowActivity">
+<ListView
+    android:id="@+id/alldatalist"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:textAlignment="center"
-    android:padding="10dp"
-    android:textSize="23sp"
-    android:layout_gravity="center"
-    />
+    android:layout_height="match_parent"/>
 </LinearLayout>

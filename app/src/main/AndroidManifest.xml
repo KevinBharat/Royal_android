@@ -13,47 +13,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppliction">
-        <activity
-            android:name=".HomeDateandtimeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".SplasehActivity2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".DatetimeActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".alert"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".seekbarprint"
-            android:exported="false" />
-        <activity
-            android:name=".IntentActivity"
-            android:exported="false" />
-        <activity
-            android:name=".seekbarActivity2"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".ImagePickActivity2"
-            android:exported="false" />
 
     </application>
 

@@ -5,16 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity.MainActivity">
-
+    tools:context=".Activity.UpdateActivity">
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/update_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your name"/>
 
     <EditText
-        android:id="@+id/name_last"
+        android:id="@+id/uname_last"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Your Last"/>
@@ -27,10 +26,10 @@
             android:layout_weight="1"
             >
             <Button
-                android:id="@+id/btn_add"
+                android:id="@+id/btn_UPdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Add"/>
+                android:text="UPdate"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -38,10 +37,10 @@
             android:layout_weight="1"
             >
             <Button
-                android:id="@+id/Display"
+                android:id="@+id/btn_Delete"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Display"/>
+                android:text="Delete"/>
         </LinearLayout>
     </LinearLayout>
 
