@@ -7,7 +7,8 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import state.hwork.sqlitedatabaseapp.R;
+import com.example.myappliction.R;
+
 
 public class MainActivity extends AppCompatActivity {
     Button btnadd,btnDisplay;

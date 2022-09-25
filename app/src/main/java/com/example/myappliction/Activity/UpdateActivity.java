@@ -7,7 +7,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import state.hwork.sqlitedatabaseapp.R;
+import com.example.myappliction.R;
 
 public class UpdateActivity extends AppCompatActivity {
 Button btnupdate,btndelete;

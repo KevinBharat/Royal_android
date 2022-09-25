@@ -5,7 +5,8 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import state.hwork.sqlitedatabaseapp.R;
+import com.example.myappliction.R;
+
 
 public class AllDataShowActivity extends AppCompatActivity {
 ListView alldatalist;
