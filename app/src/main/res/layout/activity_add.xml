@@ -26,35 +26,14 @@
         android:padding="10dp"
         android:inputType="textPersonName" />
 
-
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn_update"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_primary"
-            android:text="Update"
-            android:layout_marginTop="20dp"
-            android:textColor="#fff"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/btn_delete"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_primary"
-            android:text="Delete"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:textColor="#fff"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
+        android:background="@color/design_default_color_primary"
+        android:text="Add"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold" />
 
 </LinearLayout>
